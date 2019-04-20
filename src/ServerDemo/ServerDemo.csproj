@@ -134,6 +134,8 @@
     <Compile Include="Service\SsoService.cs" />
     <Compile Include="Service\UserService.cs" />
     <Compile Include="Utils\AesUtils.cs" />
+    <Compile Include="Utils\DateUtils.cs" />
+    <Compile Include="Utils\EncryptUtils.cs" />
     <Compile Include="Utils\JsonUtils.cs" />
   </ItemGroup>
   <ItemGroup>
