@@ -96,6 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Common\Constants.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Enums\ErrorCodeEnum.cs" />
     <Compile Include="Enums\ExpireEnum.cs" />
