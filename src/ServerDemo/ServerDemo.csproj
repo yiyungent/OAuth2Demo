@@ -97,6 +97,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Common\Constants.cs" />
+    <Compile Include="Common\HttpContextUtils.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Enums\ErrorCodeEnum.cs" />
     <Compile Include="Enums\ExpireEnum.cs" />
@@ -135,6 +136,7 @@
     <Compile Include="Models\UserRole.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\AuthorizationService.cs" />
+    <Compile Include="Service\Impl\AuthorizationServiceImpl.cs" />
     <Compile Include="Service\RedisService.cs" />
     <Compile Include="Service\SsoService.cs" />
     <Compile Include="Service\UserService.cs" />
@@ -155,7 +157,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Service\Impl\" />
     <Folder Include="Views\Users\" />
   </ItemGroup>
   <ItemGroup>
